@@ -148,6 +148,4 @@
 .meme::after div.visibility{
     transition: 0.5s;
 }
-.FirstMeme:checked{
-    border-radius: 1px;
-}
+
