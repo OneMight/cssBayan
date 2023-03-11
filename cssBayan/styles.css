@@ -1,0 +1,151 @@
+.page_style{
+    display: inline;
+    height: 80%;
+    width: 50%;
+    background-color: blanchedalmond;
+}
+
+
+.head{
+    display: flex;
+    margin-top: 4%;
+    font-size: 400%;
+    justify-content: flex-start;
+    margin-left: 10%;
+    font-weight: 900;
+    border-bottom: 1px solid gray;
+}
+
+.FirstMeme{
+    display: flex;
+    justify-content: flex-start;
+    height: 30%;
+    width: 70%;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-size: 200%;
+    
+   
+}
+.visibility{
+ margin-left: 10%;   
+ opacity: 0;
+ 
+ display: none;
+}
+
+
+
+.SecondMeme{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    height: 30%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.ThirdMeme{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    height: 30%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.FourthMeme{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    height: 30%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 200%;
+}
+
+.FivesMeme{
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    height: 30%;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 200%; 
+}
+
+.sizeofscreenshot{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 3%;
+    height: 15%;
+    width: 30%;
+   
+   
+    
+}
+
+.SecondSizeofScreenshot{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 15%;
+    width: 30%; 
+  
+}
+
+.ThirdSizeofScreenshot{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 15%;
+    width: 30%;
+  
+ 
+}
+
+.FourthSizeofScreenshot{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 15%;
+    width: 30%;
+   
+}
+
+.FivesSizeofScreenshot{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 2%;
+    height: 15%;
+    width: 30%;
+
+}
+
+.meme:hover{
+    color: rgb(20, 14, 189);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.meme:hover div.visibility{
+    opacity: 1;
+    display: flex;
+    transition: 0.5s;
+}
+
+.meme::after div.visibility{
+    transition: 0.5s;
+}
+
